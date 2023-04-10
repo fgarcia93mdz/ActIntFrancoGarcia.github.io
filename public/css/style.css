@@ -1,0 +1,80 @@
+/*=============================================
+ESCRITORIO (XL revisamos en 1366px en adelante)
+=============================================*/
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul, ol{
+	list-style:none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style:none;
+	text-decoration: none;
+}
+
+/*=============================================
+HEADER
+=============================================*/
+
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:5;
+	background: rgba(0,0,0,.5);
+}
+
+header .logotipo{
+	width:45%;
+}
+
+.redes ul li i{
+	width:35px;
+	line-height: 35px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.redes ul li i.fa-facebook-f{
+	background: #1475E0;
+}
+
+.redes ul li i.fa-instagram{
+	background: #B18768;
+}
+
+
+.redes ul li i.fa-twitter{
+	background: #00A6FF;
+}
+
+
+.redes ul li i.fa-youtube{
+	background: #F95F62;
+}
+
+
+.redes ul li i.fa-snapchat-ghost{
+	background: #FF9052;
+}
+
+.fa-bars{
+	font-size:35px;
+}
+
+.fa-search, .fa-bars{
+	color:white;
+}
+
+.redesMovil{
+	position:fixed;
+	bottom:-10px;
+	left:50%;
+	z-index:10;
+	transform: translate(-50%, 0%);
+}
+
+
